@@ -29,7 +29,7 @@ function App() {
     } else {
       setTenzies(false)
     }
-  }, [dice])
+  }, [dice, winGame])
 
   function generateNewDie() {
     return {
